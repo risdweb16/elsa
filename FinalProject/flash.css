@@ -1,0 +1,530 @@
+body{
+	background-image: url("http://paellaproductions.com/wp-content/uploads/2014/03/ny2.jpg");
+	background-repeat: no-repeat;
+}
+#yes{
+	font-family: Helvetica;
+	color: white;
+	letter-spacing: 3px;
+	font-weight: lighter;
+	font-size: 30px;
+	position: absolute;
+	margin-left: 300px;
+}
+.hover-appear img{
+	width: 300px;
+    position: relative;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+}
+.fill{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+#polaroid{
+	overflow:hidden;
+	padding:20px 10px;
+}
+#polaroid figure{
+	float:left;
+	position:relative;
+	width:200px;
+	margin:10px 20px;
+	padding: 6px 8px 10px 8px;
+	-webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	-moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	background: white;
+	-webkit-transform:rotate(-1deg);
+	-moz-transform: rotate(-1deg);
+	-o-transform: rotate(-1deg);
+	-ms-transform: rotate(-1deg);
+	transform: rotate(-1deg);
+	-webkit-backface-visibility:hidden; /*prevent rotated text being jagged in Chrome and Safari*/
+}
+#polaroid figure:nth-child(even) {
+	-webkit-transform:rotate(2deg);
+	-moz-transform: rotate(2deg);
+	-o-transform: rotate(2deg);
+	-ms-transform: rotate(2deg);
+	transform: rotate(2deg);
+	-webkit-backface-visibility:hidden; /*prevent rotated text being jagged in Chrome and Safari*/
+	-webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	-moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	box-shadow: -4px 4px 8px -4px rgba(0, 0, 0, .75);
+}
+#polaroid figure:before {
+	content: '';
+	display: block;
+	position: absolute;
+	left:5px;
+	top: -15px;
+	width: 75px;
+	height: 25px;
+	background-color: rgb(242, 241, 236);
+	opacity: .6;
+	-webkit-transform: rotate(-12deg);
+	-moz-transform: rotate(-12deg);
+	-o-transform: rotate(-12deg);
+	-ms-transform: rotate(-12deg);
+}
+#polaroid figure:nth-child(even):before {
+	left:150px;
+	top: -15px;
+	width: 55px;
+	height: 25px;
+	-webkit-transform: rotate(12deg);
+	-moz-transform: rotate(12deg);
+	-o-transform: rotate(12deg);
+	-ms-transform: rotate(12deg);
+}
+#polaroid figcaption{
+	text-align:center;
+	font-family: 'Covered By Your Grace', cursive;
+	font-size:1.3em;
+	color:black;
+	letter-spacing:0.09em;
+}
+/**IE Hacks - see http://css3pie.com/ for more info on how to use CS3Pie and to download the latest version**/
+#polaroid figure{
+-pie-background: linear-gradient(rgb(253, 253, 251));
+behavior: url(assets/pie/PIE.htc);
+position:relative; /*required to make PIE work*/
+padding-top:10px\9;
+padding-right:10px\9;
+}
+/*--------polariod2-----------------*/
+#polaroid2{
+	overflow:hidden;
+	padding:20px 10px;
+}
+#polaroid2 figure{
+	float:left;
+	position:relative;
+	width:200px;
+	margin:10px 20px;
+	padding: 6px 8px 10px 8px;
+	-webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	-moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	background: white;
+	-webkit-transform:rotate(-1deg);
+	-moz-transform: rotate(-1deg);
+	-o-transform: rotate(-1deg);
+	-ms-transform: rotate(-1deg);
+	transform: rotate(-1deg);
+	-webkit-backface-visibility:hidden; /*prevent rotated text being jagged in Chrome and Safari*/
+}
+#polaroid2 figure:nth-child(even) {
+	-webkit-transform:rotate(2deg);
+	-moz-transform: rotate(2deg);
+	-o-transform: rotate(2deg);
+	-ms-transform: rotate(2deg);
+	transform: rotate(2deg);
+	-webkit-backface-visibility:hidden; /*prevent rotated text being jagged in Chrome and Safari*/
+	-webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	-moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	box-shadow: -4px 4px 8px -4px rgba(0, 0, 0, .75);
+}
+#polaroid2 figure:before {
+	content: '';
+	display: block;
+	position: absolute;
+	left:5px;
+	top: -15px;
+	width: 75px;
+	height: 25px;
+	background-color: rgb(242, 241, 236);
+	opacity: .6;
+	-webkit-transform: rotate(-12deg);
+	-moz-transform: rotate(-12deg);
+	-o-transform: rotate(-12deg);
+	-ms-transform: rotate(-12deg);
+}
+#polaroid2 figure:nth-child(even):before {
+	left:150px;
+	top: -15px;
+	width: 55px;
+	height: 25px;
+	-webkit-transform: rotate(12deg);
+	-moz-transform: rotate(12deg);
+	-o-transform: rotate(12deg);
+	-ms-transform: rotate(12deg);
+}
+#polaroid2 figcaption{
+	text-align:center;
+	font-family: 'Covered By Your Grace', cursive;
+	font-size:1.3em;
+	color:black;
+	letter-spacing:0.09em;
+}
+/**IE Hacks - see http://css3pie.com/ for more info on how to use CS3Pie and to download the latest version**/
+#polaroid2 figure{
+-pie-background: linear-gradient(rgb(253, 253, 251));
+behavior: url(assets/pie/PIE.htc);
+position:relative; /*required to make PIE work*/
+padding-top:10px\9;
+padding-right:10px\9;
+}
+/*--------polariod2-----------------*/
+#polaroid3{
+
+	padding:20px 10px;
+}
+#polaroid3 figure{
+	float:left;
+	position:relative;
+	width:200px;
+	margin:10px 20px;
+	padding: 6px 8px 10px 8px;
+	-webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	-moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	background: white;
+	-webkit-transform:rotate(-1deg);
+	-moz-transform: rotate(-1deg);
+	-o-transform: rotate(-1deg);
+	-ms-transform: rotate(-1deg);
+	transform: rotate(-1deg);
+	-webkit-backface-visibility:hidden; /*prevent rotated text being jagged in Chrome and Safari*/
+}
+#polaroid3 figure:nth-child(even) {
+	-webkit-transform:rotate(2deg);
+	-moz-transform: rotate(2deg);
+	-o-transform: rotate(2deg);
+	-ms-transform: rotate(2deg);
+	transform: rotate(2deg);
+	-webkit-backface-visibility:hidden; /*prevent rotated text being jagged in Chrome and Safari*/
+	-webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	-moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+	box-shadow: -4px 4px 8px -4px rgba(0, 0, 0, .75);
+}
+#polaroid3 figure:before {
+	content: '';
+	display: block;
+	position: absolute;
+	left:5px;
+	top: -15px;
+	width: 75px;
+	height: 25px;
+	background-color: rgb(242, 241, 236);
+	opacity: .6;
+	-webkit-transform: rotate(-12deg);
+	-moz-transform: rotate(-12deg);
+	-o-transform: rotate(-12deg);
+	-ms-transform: rotate(-12deg);
+}
+#polaroid3 figure:nth-child(even):before {
+	left:150px;
+	top: -15px;
+	width: 55px;
+	height: 25px;
+	-webkit-transform: rotate(12deg);
+	-moz-transform: rotate(12deg);
+	-o-transform: rotate(12deg);
+	-ms-transform: rotate(12deg);
+}
+#polaroid3 figcaption{
+	text-align:center;
+	font-family: 'Covered By Your Grace', cursive;
+	font-size:1.3em;
+	color:black;
+	letter-spacing:0.09em;
+}
+/**IE Hacks - see http://css3pie.com/ for more info on how to use CS3Pie and to download the latest version**/
+#polaroid3 figure{
+-pie-background: linear-gradient(rgb(253, 253, 251));
+behavior: url(assets/pie/PIE.htc);
+position:relative; /*required to make PIE work*/
+padding-top:10px\9;
+padding-right:10px\9;
+}
+
+/*------moving pics------*/
+#polaroid figure:first-child  {
+	margin-left: 370px;
+	margin-top: 70px;
+	width: 150px;
+	height: 200px;
+	font-size: 12px;
+}
+#polaroid img:first-child  {
+	width: 150px;
+	height: 150px;
+}
+#polaroid figure:nth-child(2) {
+	margin-left: 50px;
+	margin-top: 10px;
+	width: 150px;
+	height: 200px;
+	font-size: 12px;
+}
+#polaroid img:nth-child(2) {
+	width: 150px;
+	height: 150px;
+}
+#polaroid figure:nth-child(3) {
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 150px;
+	height: 200px;
+	font-size: 12px;
+}
+#polaroid img:nth-child(3) {
+	width: 150px;
+	height: 150px;
+}
+#polaroid2 figure:first-child{
+	margin-left: 350px;
+	margin-top: -10px;
+	width: 150px;
+	height: 200px;
+	font-size: 12px;
+}
+#polaroid2 img:first-child {
+	width: 150px;
+	height: 150px;
+}
+#polaroid2 figure:nth-child(2){
+	margin-left: 380px;
+	margin-top: -20px;
+	width: 150px;
+	height: 200px;
+	font-size: 12px;
+}
+#polaroid2 img:nth-child(2){
+	width: 150px;
+	height: 150px;
+}
+#polaroid2 figure:nth-child(3){
+	margin-left: -580px;
+	margin-top: 200px;
+	width: 150px;
+	height: 200px;
+	font-size: 12px;
+}
+#polaroid2 img:nth-child(3){
+	width: 150px;
+	height: 150px;
+}
+#polaroid3 figure:first-child{
+	margin-left: 750px;
+	margin-top: -260px;
+	width: 150px;
+	height: 200px;
+	font-size: 12px;
+}
+#polaroid3 img:first-child {
+	width: 150px;
+	height: 150px;
+}
+/*-----------CENTER IMG-------*/
+.caption {
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+}
+
+.hover-appear {
+    display: block;
+    min-width: 200px;
+    max-width: 200px;
+    height: auto;
+}
+
+.hover-div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 40px 20px 20px 20px;
+    background-image: url("http://simpleicon.com/wp-content/uploads/dslr-camera.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 80% 20%;
+
+    -webkit-transform: translateY(10%);
+            transform: translateY(100%);
+
+    transition: -webkit-transform .35s ease-out;
+    transition:         transform .35s ease-out;
+
+    @media screen and (max-width: 668px) {
+		padding: 10px 10px 10px 10px;
+	}
+}
+
+.caption:hover .hover-div{
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+/*SHAKE----------------------*/
+		#yo{
+		  color: #FFF;
+		  font-size: 24px;
+		  margin: 30px 0 0;
+		  padding: 20px;
+		  text-transform: uppercase;
+		}
+
+		#yo:hover{
+		  animation: shake 150ms 2 linear;
+		  -moz-animation: shake 150ms 2 linear;
+		  -webkit-animation: shake 150ms 2 linear;
+		  -o-animation: shake 150ms 2 linear;
+		}
+		#yo2{
+		  color: #FFF;
+		  font-size: 24px;
+		  margin: 30px 0 0;
+		  padding: 20px;
+		  text-transform: uppercase;
+		}
+
+		#yo2:hover{
+		  animation: shake 150ms 2 linear;
+		  -moz-animation: shake 150ms 2 linear;
+		  -webkit-animation: shake 150ms 2 linear;
+		  -o-animation: shake 150ms 2 linear;
+		}
+		#yo3{
+		  color: #FFF;
+		  font-size: 24px;
+		  margin: 30px 0 0;
+		  padding: 20px;
+		  text-transform: uppercase;
+		}
+
+		#yo3:hover{
+		  animation: shake 150ms 2 linear;
+		  -moz-animation: shake 150ms 2 linear;
+		  -webkit-animation: shake 150ms 2 linear;
+		  -o-animation: shake 150ms 2 linear;
+		}
+		#yo4{
+		  color: #FFF;
+		  font-size: 24px;
+		  margin: 30px 0 0;
+		  padding: 20px;
+		  text-transform: uppercase;
+		}
+
+		#yo4:hover{
+		  animation: shake 150ms 2 linear;
+		  -moz-animation: shake 150ms 2 linear;
+		  -webkit-animation: shake 150ms 2 linear;
+		  -o-animation: shake 150ms 2 linear;
+		}
+		#yo5{
+		  color: #FFF;
+		  font-size: 24px;
+		  margin: 30px 0 0;
+		  padding: 20px;
+		  text-transform: uppercase;
+		}
+
+		#yo5:hover{
+		  animation: shake 150ms 2 linear;
+		  -moz-animation: shake 150ms 2 linear;
+		  -webkit-animation: shake 150ms 2 linear;
+		  -o-animation: shake 150ms 2 linear;
+		}
+		#yo6{
+		  color: #FFF;
+		  font-size: 24px;
+		  margin: 30px 0 0;
+		  padding: 20px;
+		  text-transform: uppercase;
+		}
+
+		#yo6:hover{
+		  animation: shake 150ms 2 linear;
+		  -moz-animation: shake 150ms 2 linear;
+		  -webkit-animation: shake 150ms 2 linear;
+		  -o-animation: shake 150ms 2 linear;
+		}
+
+		@keyframes shake {
+		  0% {
+		    transform: translate(5px, 0);
+		  }
+		  50% {
+		    transform: translate(-5px, 0);
+		  }
+		  100% {
+		    transform: translate(0, 0);
+		  }
+		}
+
+		@-moz-keyframes shake {
+		  0% {
+		    -moz-transform: translate(3px, 0);
+		  }
+		  50% {
+		    -moz-transform: translate(-3px, 0);
+		  }
+		  100% {
+		    -moz-transform: translate(0, 0);
+		  }
+		}
+
+		@-webkit-keyframes shake {
+		  0% {
+		    -webkit-transform: translate(3px, 0);
+		  }
+		  50% {
+		    -webkit-transform: translate(-3px, 0);
+		  }
+		  100% {
+		    -webkit-transform: translate(0, 0);
+		  }
+		}
+
+		@-ms-keyframes shake {
+		  0% {
+		    -ms-transform: translate(3px, 0);
+		  }
+		  50% {
+		    -ms-transform: translate(-3px, 0);
+		  }
+		  100% {
+		    -ms-transform: translate(0, 0);
+		  }
+		}
+
+		@-o-keyframes shake {
+		  0% {
+		    -o-transform: translate(3px, 0);
+		  }
+		  50% {
+		    -o-transform: translate(-3px, 0);
+		  }
+		  100% {
+		    -o-transform: translate(0, 0);
+		  }
+		}
+
+
+
